@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="0.311">
+    <testcase classname="Search Page Test cases" name="Verify if the Search URL and the title is correct" time="0.014">
+        <system-out><![CDATA[Given The application is launched and in search page........................passed
+And Verify the page url.....................................................passed
+And Verify the page title...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search Page Test cases" name="Verify if the user is able to search for a product" time="0.005">
+        <system-out><![CDATA[Given The application is launched and in search page........................passed
+And Enter the search "Shirts"...............................................passed
+And Clicks on search button.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search Page Test cases" name="Verify if the user is able to add item to cart" time="0.019">
+        <system-out><![CDATA[Given The application is launched and in search page........................passed
+And Enter the search "Shirts"...............................................passed
+And Clicks on search button.................................................passed
+And Click on the product....................................................passed
+And Add item to cart........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search Page Test cases" name="Verify if the search icon is visibile on the page" time="0.004">
+        <system-out><![CDATA[Given The application is launched and in search page........................passed
+And Verify the search icon..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search Page Test cases" name="Verify if the user is able to filter based on Delivery Day" time="0.003">
+        <system-out><![CDATA[Given The application is launched and in search page........................passed
+When The user clicks on Get it by Tomrrow...................................passed
+And The products should be displayed to the user............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
